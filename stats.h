@@ -24,6 +24,20 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
+ * @brief Print statistics
+ *
+ * A function that prints the statistics of an array including minimum, maximum, mean, and median.
+ *
+ * @param *array A unsigned char pointer to an n-element data array
+ * @param size An unsigned integer as the size of the array
+ * @param Output An unsigned char result from the function
+ * @param <Add InputName> <add description here>
+ *
+ * @return <Add Return Informaiton here>
+ */
+unsigned char print_statistics(unsigned char *array, unsigned int size);
+
+/**
  * @brief Print array
  *
  * Given an array of data and a length, prints the array to the screen

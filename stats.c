@@ -44,6 +44,11 @@ void main() {
 
 /* Add other Implementation File Code Here */
 
+// A function that prints the statistics of an array including minimum, maximum, mean, and median.
+unsigned char print_statistics(unsigned char *array, unsigned int size) {
+
+}
+
 //Given an array of data and a length, prints the array to the screen
 unsigned char print_array(unsigned char *array, unsigned int size) {
     printf("Test\n");
@@ -52,8 +57,6 @@ unsigned char print_array(unsigned char *array, unsigned int size) {
 
 
 /*
-print_statistics() - A function that prints the statistics of an array including minimum, maximum, mean, and median.
-
 
 find_median() - Given an array of data and a length, returns the median value
 
